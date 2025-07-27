@@ -8,11 +8,8 @@ module.exports = [
     },
     rules: {
       "arrow-spacing": ["warn", { before: true, after: true }],
-      "brace-style": ["error", "stroustrup", { allowSingleLine: true }],
-      "comma-dangle": ["error", "always-multiline"],
       "comma-spacing": "error",
       "comma-style": "error",
-      curly: ["error", "multi-line", "consistent"],
       "dot-location": ["error", "property"],
       "handle-callback-err": "off",
       "keyword-spacing": "error",
@@ -29,10 +26,8 @@ module.exports = [
       "no-trailing-spaces": ["error"],
       "no-var": "error",
       "no-undef": "off",
-      "object-curly-spacing": ["error", "always"],
       "prefer-const": "error",
       semi: ["error", "always"],
-      "space-before-blocks": "error",
       "space-before-function-paren": [
         "error",
         {
